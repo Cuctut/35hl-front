@@ -1,0 +1,30 @@
+{
+  "name": "35hl-front",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueup/vue-quill": "^1.2.0",
+    "@wangeditor/editor": "^5.1.23",
+    "@wangeditor/editor-for-vue": "^5.1.12",
+    "@wangeditor/plugin-formula": "^1.0.11",
+    "axios": "^1.7.9",
+    "katex": "0.15.2",
+    "pinia": "^2.3.0",
+    "quill": "^2.0.3",
+    "snabbdom": "3.3.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@arco-design/web-vue": "^2.56.3",
+    "@types/katex": "^0.16.7",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.3"
+  }
+}
